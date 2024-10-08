@@ -5,7 +5,7 @@
 // @grant       none
 // @version     1.1
 // @author      DennisOstertag
-// @description Verändert den Kalenderbutton für ein intuitives Verständnis des gerade ausgewählten Datums.
+// @description Verändert den Kalenderbutton für ein intuitives Verständnis des gerade ausgewählten Datums und setzt die Endzeit als neue Startzeit.
 // ==/UserScript==
 
 (function(){
