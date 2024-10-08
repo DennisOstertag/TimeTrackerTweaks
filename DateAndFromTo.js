@@ -3,8 +3,8 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://zeiterfassung.aracom.de/stundenerfassung*
 // @grant       none
-// @version     1.0
-// @author      LWChris
+// @version     1.1
+// @author      DennisOstertag
 // @description Verändert den Kalenderbutton für ein intuitives Verständnis des gerade ausgewählten Datums.
 // ==/UserScript==
 
