@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://zeiterfassung.aracom.de/stundenerfassung*
 // @grant       none
-// @version     1.2
+// @version     1.2.1
 // @author      DennisOstertag
 // @description 
 // - Verändert den Kalenderbutton für ein intuitives Verständnis des gerade ausgewählten Datums. 
@@ -81,7 +81,9 @@
     function createDurationElement(header,duration){
       const element = document.createElement("span");
       element.style = "font-weight:bold;width:35px;line-height: unset;";
-      element.innerText = " \u00A0\u00A0 " + duration + " Std"
+
+      const displayDuration = duration == null ? "?" : duration;
+      element.innerText = " \u00A0\u00A0 " + displayDuration + " Std"
 
       header.children[0].appendChild(element);
     }
